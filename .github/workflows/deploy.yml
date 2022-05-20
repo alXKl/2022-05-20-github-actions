@@ -22,4 +22,4 @@ jobs:
           AWS_REGION: us-west-2
 
         run: |
-          aws s3api list-buckets
+          aws s3 cp index.html s3://2022-05-20-impala-actions/index.html
