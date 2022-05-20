@@ -16,4 +16,4 @@ jobs:
         run: aws --version
       - name: Run a multi-line script
         run: |
-          echo "Our first GitHub Action"
+          aws s3api list-buckets
